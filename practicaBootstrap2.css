@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Scada:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+* {
+    font-family: 'Scada', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #f5edf0;
+}
+.container-fluid {
+    background-color: #ee8ab0;
+}
+.titulo {
+    color: white;
+    font-size:x-large;
+}
+.btn-inicio {
+    margin: 0 40px;
+    color: white;
+}
+.btn-productos {
+    color: white;
+}
+.container-logo {
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+    align-content: center;
+    display: flex;
+}
+.frutilla-logo {
+    width: 48px;
+}
+.container-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.boton {
+    padding: 8px 16px;
+    border-radius: 8px;
+    background-color: #ee8ab0;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: medium;
+    font-weight: bolder;
+}

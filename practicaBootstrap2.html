@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="practicaBootstrap2.css">
+
+    <title>Frutilla</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <div class="container-logo">
+                <img src="https://cdn-icons-png.flaticon.com/512/590/590772.png" class="frutilla-logo">
+                <div class="titulo">Frutilla</div>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="inicio-productos collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class=" navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <div class="btn-inicio" aria-current="page">Inicio</div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <div class="btn-productos dropdown-toggle" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Productos
+                        </div>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Tartas</a></li>
+                            <li><a class="dropdown-item" href="#">Tortas</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Sección Principal -->
+    <section class="container">
+        <div class="col d-flex flex-column">
+            <div class="card flex-grow-1">
+                <div class="row no-gutters">
+                    <div class="col">
+                        <img src="https://www.paulinacocina.net/wp-content/uploads/2018/09/tarta-de-frutillas2-640x480.png" alt="Tarta de frutilla">
+                    </div>
+                    <div class="col d-flex">
+                        <div class="container-text">
+                            <div class="container-info">
+                                <h2 class="card-title">Tarta de frutillas</h2>
+                                <p class="card-text">Tarta con base de crema pastelera y cobertura de frutillas</p>
+                                <h3>$5.500</h3>
+                                <button class="boton">¡Lo quiero!</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous">
+    </script>
+</body>
+</html>
