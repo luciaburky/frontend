@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Scada:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+* {
+    font-family: 'Scada', sans-serif; 
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #f5edf0;
+}
+
+/*********NAVBAR*********/
+.navbar {
+    background-color: #ee8ab0;
+    align-items: center;
+    gap: 60px;
+    padding: 10px;
+    align-content: center;
+    display:flex;
+}
+.navbar-logo {
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+    align-content: center;
+    display: flex;
+}
+.titulo {
+    color: white;
+    font-weight: 700;
+    font-size:xx-large;
+}
+.navbar .frutilla-logo {
+    width: 48px;
+}
+.navbar-texto {
+    display:flex;
+    flex-direction:row;
+    font-size: larger;
+    color:white;
+    gap: 40px;
+    font-weight: 200;
+}
+.vertical-menu>li {
+    text-align: center;
+    align-content: center;
+    margin-top: 8px;
+    padding: 10px 16px;
+    display: block;
+    border-bottom: 1px solid #ee8ab0;
+}
+.vertical-menu>li:hover {
+    background-color: white;
+    color:#ee8ab0;
+}
+.nav-item-dropdown {
+    position: relative;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+.nav-item-dropdown .vertical-menu {
+    position: absolute;
+    display: none;
+    list-style: none;
+    background-color: #ee8ab0;
+    top: 100%;
+    left: 0;
+    border: 1px solid #ee8ab0;
+    border-top: none;
+}
+.nav-item-dropdown:hover .vertical-menu {
+    display: flex;
+    flex-direction: column;
+}
+
+/*********BODY*********/
+.contenedor-general {
+    display:flex;
+    align-items:center;
+    gap: 20px;
+    justify-content: center;
+    margin: 60px;
+}
+.contenedor-texto {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    gap: 48px;
+    color: rgb(31, 29, 29);
+}
+.contenedor-general img {
+    width:500px;
+    border-radius: 16px;
+}
+.btn {
+    padding: 8px 16px;
+    border-radius: 8px;
+    background-color: #ee8ab0;
+    color: white;
+    border: none;
+    cursor:pointer;
+    font-size: medium;
+    font-weight: bolder;
+}
